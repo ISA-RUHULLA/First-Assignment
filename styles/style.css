@@ -207,4 +207,69 @@ body {
   color: #777;
 }
 
+/* Get In Touch Section */
 
+.container {
+  display: flex;
+  max-width: 1140px;
+  justify-content: space-between;
+  padding: 80px 100px;
+  margin: 0 auto;
+}
+
+.left {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 57px;
+  font-weight: bold;
+  flex: 1;
+}
+
+.right {
+  fixed width: 497px;
+  fixed height: 490px;
+  flex: 1;
+}
+
+.right form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.right label {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: medium;
+  margin-bottom: 8px;
+}
+#name,
+#email,
+#message {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: regular;
+}
+
+.right input,
+.right textarea {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.right button {
+  padding: 12px 16px;
+  border-radius: 10px;
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
