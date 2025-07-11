@@ -207,11 +207,4 @@ body {
   color: #777;
 }
 
-/* ✅ Responsive for smaller screens */
-@media (max-width: 768px) {
-  .testimonial-container {
-    flex-direction: column;
-    align-items: center;
-  }
-}
 
