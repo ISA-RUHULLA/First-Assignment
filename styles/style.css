@@ -64,6 +64,7 @@ nav h3{
     padding: 80px 100px;
     background-color: none;
     margin: 0 auto;
+    max-width: 1140px;
 }
 
 .sec-font {
@@ -88,3 +89,47 @@ nav h3{
     border: 2px solid #FFFFFF;
     border-radius: 48px;
 }
+
+/* Stats Section Styles */
+
+
+.stats-section {
+  background: #eaeaff; 
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 980px;
+  margin: 50px auto;
+
+}
+
+.stats-section h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 158px; 
+}
+
+.stat h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+  color: #4d4dff;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stat p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #666;
+  font-weight: regular;
+  margin: 8px 0 0;
+}
+
